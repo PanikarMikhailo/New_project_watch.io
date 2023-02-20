@@ -1,0 +1,103 @@
+@media ( max-width: 991px){
+    .container{
+        max-width: 800px;
+    }
+}
+@media (max-width: 768px){
+    .container{
+        max-width: 685px;
+    }
+    .promo{
+        &__wrapper{
+            align-items: center;
+        }
+    }
+    .advantages{
+        &__item{
+            max-width: 210px;
+        }
+        &__descr{
+            font-size: 13px;
+        }
+    }
+    .consultation{
+        &__descr{
+            text-align: center;
+            font-size: 18px;
+            margin-top: 15px;
+        }
+        .title_left{
+            text-align: center;
+            font-size: 30px;
+        }
+        .feed-form{
+            margin: 0 auto;
+            margin-top: 24px;
+        }
+    }
+}
+@media (max-width: 576px){
+    .promo{
+        .header{
+            justify-content: space-around;
+            &__official{
+                display: none;
+            }
+            &__phone{
+                font-size: 19px;
+            }
+            &__contacts{
+                .button{
+                    width: 165px;
+                    height: 31px;
+                }
+            }
+        }
+        &__header{
+            font-size: 40px;
+        }
+        &__subheader{
+            font-size: 21px;
+        }
+        .button_main{
+            height: 55px;
+        }
+        &__link{
+            font-size: 14px;
+        }
+    }
+    .advantages{
+        &__wrapper{
+            flex-direction: column;
+            margin-top: 20px;
+        }
+        &__item{
+            margin: 0 auto;
+            margin-top: 30px;
+            max-width: 250px;
+            img{
+                width: 95px;
+            }
+        }
+        .title{
+            font-size: 28px;
+        }
+        &__subtitle{
+            margin-top: 20px;
+            font-size: 20px;
+
+        }
+        &__descr{
+            font-size: 15px;
+            margin-top: 12px;
+        }
+    }
+    .consultation{
+        .title_left{
+            font-size: 24px;
+        }
+        &__descr{
+            font-size: 20px;
+        }
+    }
+}
