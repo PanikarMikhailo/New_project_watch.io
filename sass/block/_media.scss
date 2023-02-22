@@ -2,6 +2,11 @@
     .container{
         max-width: 900px;
     }
+    .catalog{
+        .container {
+            max-width: 620px;
+        }
+    }
 }
 
 @media ( max-width: 992px){
@@ -95,7 +100,27 @@
         .container {
             max-width: 432px;
         }
-    }    
+    } 
+    .catalog {
+        .container {
+            max-width: 569px;
+        }
+        .catalog-item {
+            width: 281px;
+        }
+        .catalog__tab {
+            width: 152px;
+            height: 47px;
+            font-size: 15px;
+        }
+    }
+    .reviews {
+        .reviews__items {
+            margin-right: 26px;
+        }
+
+    }
+
 }
 @media (max-width: 576px){
     .promo{
@@ -184,6 +209,51 @@
             }
         }
     }    
+    .catalog {
+        .catalog__content {
+            justify-content: center;
+        }
+        .catalog__tab {
+            margin: 0px 2px;
+            width: 120px;
+            font-size: 12px;
+        }
+    }
+    .reviews {
+        .container {
+            max-width: 400px;
+        }
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__title {
+            text-align: center;
+            margin-top: 22px;
+        }
+        span {
+            display: block;
+            text-align: center;
+            margin-top: 10px;
+        }
+        .reviews__text {
+            font-size: 14px;
+            text-align: center;
+            
+        }
+        br {
+            display: none;
+        }
+    }
+    .footer {
+        min-height: 100%;
+        .footer__info {
+            width: 100%;
+        }
+    }
+    iframe {
+        display: none;
+    }
 }
 @media (max-width: 425px){
     .container {
@@ -271,6 +341,30 @@
     .carousel {
         .container {
             max-width: 235px;
+        }
+    }
+    .catalog {
+        .catalog__content {
+            margin-top: 32px;
+        }
+        .title {
+            font-size: 22px;
+        }
+        .catalog__tabs {
+            margin-top: 25px;
+
+        }
+        .catalog__tab {
+            width: 93px;
+            font-size: 10px;
+        }
+    }
+    .reviews {
+        .container {
+            max-width: 306px;
+        }
+        &__text {
+            font-size: 13px;
         }
     }
 }
