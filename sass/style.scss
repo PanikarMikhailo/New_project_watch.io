@@ -6,6 +6,7 @@
 .container{
     max-width: 950px;
     margin: 0 auto;
+    position: relative;
 }
 @import 'block/promo';
 @import 'block/header.scss';
@@ -15,3 +16,5 @@
 @import 'block/consultation';
 @import 'block/forms';
 @import 'block/media';
+@import 'block/carousel';
+@import 'block/catalog';

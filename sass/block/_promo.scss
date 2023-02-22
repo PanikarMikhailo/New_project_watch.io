@@ -55,6 +55,9 @@
         a{
             text-decoration-line: underline;
             color: $white-color;
+            &:hover {
+                color: $main-color;
+            }
         }
     }
 }
