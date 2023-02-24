@@ -1,8 +1,11 @@
 @import 'base/variables';
+@import 'base/mixins';
+@import 'base/_animation.scss';
 
 *{
     font-family: 'Museo Sans', sans-serif;
 }
+
 .container{
     max-width: 950px;
     margin: 0 auto;
@@ -20,3 +23,5 @@
 @import 'block/catalog';
 @import 'block/footer';
 @import 'block/reviews';
+@import 'block/modal';
+@import 'block/pageup';

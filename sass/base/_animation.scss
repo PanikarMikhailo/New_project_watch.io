@@ -1,0 +1,11 @@
+@keyframes heartbeat {   /* @keyframes "name animation" { 0%, 10%, 50%, 100% } */
+    from {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    to {
+        transform: scale(1);
+    }
+}

@@ -254,6 +254,12 @@
     iframe {
         display: none;
     }
+    .modal {
+        .modal__close {
+            top: 5px;
+            right: 5px;
+        }
+    }
 }
 @media (max-width: 425px){
     .container {
@@ -340,7 +346,13 @@
     }
     .carousel {
         .container {
-            max-width: 235px;
+            max-width: 285px;
+            .next {
+                display: none;
+             }
+            .prev {
+                display: none;
+            }
         }
     }
     .catalog {
@@ -367,4 +379,26 @@
             font-size: 13px;
         }
     }
+    .overlay {
+        .modal {
+            max-width: 285px;
+            padding: 30px 15px 20px 15px;
+        }
+        .feed-form {
+            margin: 0 auto;
+            margin-top: 20px;
+            width: 100%;
+        }
+        .modal__subtitle {
+            font-size: 15px;
+        }
+        .modal__descr {
+            font-size: 12px;
+        }
+    }
+    .button_submit {
+        font-size: 14px;
+    }
+
+
 }
