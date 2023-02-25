@@ -1,7 +1,15 @@
+/*link files */
+@import 'libs/_bootstrap-reboot.min.scss';
+@import 'libs/_fonts';
+@import 'libs/_animate.min.scss';
+/*link files end*/
+
+
+/* base */
 @import 'base/variables';
 @import 'base/mixins';
 @import 'base/_animation.scss';
-
+/* base end*/
 *{
     font-family: 'Museo Sans', sans-serif;
 }
@@ -11,6 +19,7 @@
     margin: 0 auto;
     position: relative;
 }
+/* block по БЕМУ*/
 @import 'block/promo';
 @import 'block/header.scss';
 @import 'block/buttons';
@@ -25,3 +34,4 @@
 @import 'block/reviews';
 @import 'block/modal';
 @import 'block/pageup';
+/* block end*/

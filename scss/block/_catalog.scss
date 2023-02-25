@@ -153,6 +153,11 @@
                 transform: translateX(-100%);
                 margin-left: 0px; 
             }
+            
+        }
+        ul {
+            padding-left: 0px;
+            list-style-type: none;
             li {
                 position: relative;
                 font-weight: 300;
